@@ -1,0 +1,15 @@
+D:\BOOTCAMP\day1\Day3\bin\Debug\net6.0\Day3.exe
+D:\BOOTCAMP\day1\Day3\bin\Debug\net6.0\Day3.deps.json
+D:\BOOTCAMP\day1\Day3\bin\Debug\net6.0\Day3.runtimeconfig.json
+D:\BOOTCAMP\day1\Day3\bin\Debug\net6.0\Day3.dll
+D:\BOOTCAMP\day1\Day3\bin\Debug\net6.0\Day3.pdb
+D:\BOOTCAMP\day1\Day3\obj\Debug\net6.0\Day3.csproj.AssemblyReference.cache
+D:\BOOTCAMP\day1\Day3\obj\Debug\net6.0\Day3.GeneratedMSBuildEditorConfig.editorconfig
+D:\BOOTCAMP\day1\Day3\obj\Debug\net6.0\Day3.AssemblyInfoInputs.cache
+D:\BOOTCAMP\day1\Day3\obj\Debug\net6.0\Day3.AssemblyInfo.cs
+D:\BOOTCAMP\day1\Day3\obj\Debug\net6.0\Day3.csproj.CoreCompileInputs.cache
+D:\BOOTCAMP\day1\Day3\obj\Debug\net6.0\Day3.dll
+D:\BOOTCAMP\day1\Day3\obj\Debug\net6.0\refint\Day3.dll
+D:\BOOTCAMP\day1\Day3\obj\Debug\net6.0\Day3.pdb
+D:\BOOTCAMP\day1\Day3\obj\Debug\net6.0\Day3.genruntimeconfig.cache
+D:\BOOTCAMP\day1\Day3\obj\Debug\net6.0\ref\Day3.dll

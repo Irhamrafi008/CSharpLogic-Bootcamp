@@ -1,0 +1,15 @@
+D:\BOOTCAMP\day1\Day2_LogicTestArray\bin\Debug\net6.0\Day2_LogicTestArray.exe
+D:\BOOTCAMP\day1\Day2_LogicTestArray\bin\Debug\net6.0\Day2_LogicTestArray.deps.json
+D:\BOOTCAMP\day1\Day2_LogicTestArray\bin\Debug\net6.0\Day2_LogicTestArray.runtimeconfig.json
+D:\BOOTCAMP\day1\Day2_LogicTestArray\bin\Debug\net6.0\Day2_LogicTestArray.dll
+D:\BOOTCAMP\day1\Day2_LogicTestArray\bin\Debug\net6.0\Day2_LogicTestArray.pdb
+D:\BOOTCAMP\day1\Day2_LogicTestArray\obj\Debug\net6.0\Day2_LogicTestArray.csproj.AssemblyReference.cache
+D:\BOOTCAMP\day1\Day2_LogicTestArray\obj\Debug\net6.0\Day2_LogicTestArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\BOOTCAMP\day1\Day2_LogicTestArray\obj\Debug\net6.0\Day2_LogicTestArray.AssemblyInfoInputs.cache
+D:\BOOTCAMP\day1\Day2_LogicTestArray\obj\Debug\net6.0\Day2_LogicTestArray.AssemblyInfo.cs
+D:\BOOTCAMP\day1\Day2_LogicTestArray\obj\Debug\net6.0\Day2_LogicTestArray.csproj.CoreCompileInputs.cache
+D:\BOOTCAMP\day1\Day2_LogicTestArray\obj\Debug\net6.0\Day2_LogicTestArray.dll
+D:\BOOTCAMP\day1\Day2_LogicTestArray\obj\Debug\net6.0\refint\Day2_LogicTestArray.dll
+D:\BOOTCAMP\day1\Day2_LogicTestArray\obj\Debug\net6.0\Day2_LogicTestArray.pdb
+D:\BOOTCAMP\day1\Day2_LogicTestArray\obj\Debug\net6.0\Day2_LogicTestArray.genruntimeconfig.cache
+D:\BOOTCAMP\day1\Day2_LogicTestArray\obj\Debug\net6.0\ref\Day2_LogicTestArray.dll

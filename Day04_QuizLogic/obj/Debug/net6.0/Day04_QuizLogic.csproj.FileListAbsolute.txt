@@ -1,0 +1,15 @@
+D:\BOOTCAMP\day1\Day04_QuizLogic\bin\Debug\net6.0\Day04_QuizLogic.exe
+D:\BOOTCAMP\day1\Day04_QuizLogic\bin\Debug\net6.0\Day04_QuizLogic.deps.json
+D:\BOOTCAMP\day1\Day04_QuizLogic\bin\Debug\net6.0\Day04_QuizLogic.runtimeconfig.json
+D:\BOOTCAMP\day1\Day04_QuizLogic\bin\Debug\net6.0\Day04_QuizLogic.dll
+D:\BOOTCAMP\day1\Day04_QuizLogic\bin\Debug\net6.0\Day04_QuizLogic.pdb
+D:\BOOTCAMP\day1\Day04_QuizLogic\obj\Debug\net6.0\Day04_QuizLogic.csproj.AssemblyReference.cache
+D:\BOOTCAMP\day1\Day04_QuizLogic\obj\Debug\net6.0\Day04_QuizLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\BOOTCAMP\day1\Day04_QuizLogic\obj\Debug\net6.0\Day04_QuizLogic.AssemblyInfoInputs.cache
+D:\BOOTCAMP\day1\Day04_QuizLogic\obj\Debug\net6.0\Day04_QuizLogic.AssemblyInfo.cs
+D:\BOOTCAMP\day1\Day04_QuizLogic\obj\Debug\net6.0\Day04_QuizLogic.csproj.CoreCompileInputs.cache
+D:\BOOTCAMP\day1\Day04_QuizLogic\obj\Debug\net6.0\Day04_QuizLogic.dll
+D:\BOOTCAMP\day1\Day04_QuizLogic\obj\Debug\net6.0\refint\Day04_QuizLogic.dll
+D:\BOOTCAMP\day1\Day04_QuizLogic\obj\Debug\net6.0\Day04_QuizLogic.pdb
+D:\BOOTCAMP\day1\Day04_QuizLogic\obj\Debug\net6.0\Day04_QuizLogic.genruntimeconfig.cache
+D:\BOOTCAMP\day1\Day04_QuizLogic\obj\Debug\net6.0\ref\Day04_QuizLogic.dll

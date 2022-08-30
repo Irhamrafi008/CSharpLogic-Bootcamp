@@ -1,0 +1,15 @@
+D:\BOOTCAMP\day1\CSharpLogic\obj\Debug\net6.0\CSharpLogic.csproj.AssemblyReference.cache
+D:\BOOTCAMP\day1\CSharpLogic\obj\Debug\net6.0\CSharpLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\BOOTCAMP\day1\CSharpLogic\obj\Debug\net6.0\CSharpLogic.AssemblyInfoInputs.cache
+D:\BOOTCAMP\day1\CSharpLogic\obj\Debug\net6.0\CSharpLogic.AssemblyInfo.cs
+D:\BOOTCAMP\day1\CSharpLogic\obj\Debug\net6.0\CSharpLogic.csproj.CoreCompileInputs.cache
+D:\BOOTCAMP\day1\CSharpLogic\bin\Debug\net6.0\CSharpLogic.exe
+D:\BOOTCAMP\day1\CSharpLogic\bin\Debug\net6.0\CSharpLogic.deps.json
+D:\BOOTCAMP\day1\CSharpLogic\bin\Debug\net6.0\CSharpLogic.runtimeconfig.json
+D:\BOOTCAMP\day1\CSharpLogic\bin\Debug\net6.0\CSharpLogic.dll
+D:\BOOTCAMP\day1\CSharpLogic\bin\Debug\net6.0\CSharpLogic.pdb
+D:\BOOTCAMP\day1\CSharpLogic\obj\Debug\net6.0\CSharpLogic.dll
+D:\BOOTCAMP\day1\CSharpLogic\obj\Debug\net6.0\refint\CSharpLogic.dll
+D:\BOOTCAMP\day1\CSharpLogic\obj\Debug\net6.0\CSharpLogic.pdb
+D:\BOOTCAMP\day1\CSharpLogic\obj\Debug\net6.0\CSharpLogic.genruntimeconfig.cache
+D:\BOOTCAMP\day1\CSharpLogic\obj\Debug\net6.0\ref\CSharpLogic.dll

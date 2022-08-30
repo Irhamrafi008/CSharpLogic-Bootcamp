@@ -1,0 +1,15 @@
+D:\BOOTCAMP\day1\Day4_oop\bin\Debug\net6.0\Day4_oop.exe
+D:\BOOTCAMP\day1\Day4_oop\bin\Debug\net6.0\Day4_oop.deps.json
+D:\BOOTCAMP\day1\Day4_oop\bin\Debug\net6.0\Day4_oop.runtimeconfig.json
+D:\BOOTCAMP\day1\Day4_oop\bin\Debug\net6.0\Day4_oop.dll
+D:\BOOTCAMP\day1\Day4_oop\bin\Debug\net6.0\Day4_oop.pdb
+D:\BOOTCAMP\day1\Day4_oop\obj\Debug\net6.0\Day4_oop.csproj.AssemblyReference.cache
+D:\BOOTCAMP\day1\Day4_oop\obj\Debug\net6.0\Day4_oop.GeneratedMSBuildEditorConfig.editorconfig
+D:\BOOTCAMP\day1\Day4_oop\obj\Debug\net6.0\Day4_oop.AssemblyInfoInputs.cache
+D:\BOOTCAMP\day1\Day4_oop\obj\Debug\net6.0\Day4_oop.AssemblyInfo.cs
+D:\BOOTCAMP\day1\Day4_oop\obj\Debug\net6.0\Day4_oop.csproj.CoreCompileInputs.cache
+D:\BOOTCAMP\day1\Day4_oop\obj\Debug\net6.0\Day4_oop.dll
+D:\BOOTCAMP\day1\Day4_oop\obj\Debug\net6.0\refint\Day4_oop.dll
+D:\BOOTCAMP\day1\Day4_oop\obj\Debug\net6.0\Day4_oop.pdb
+D:\BOOTCAMP\day1\Day4_oop\obj\Debug\net6.0\Day4_oop.genruntimeconfig.cache
+D:\BOOTCAMP\day1\Day4_oop\obj\Debug\net6.0\ref\Day4_oop.dll
