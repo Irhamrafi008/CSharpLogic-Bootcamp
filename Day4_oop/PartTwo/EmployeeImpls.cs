@@ -41,7 +41,29 @@ namespace Day4_oop.PartTwo
 
         public Dictionary<string, int> GetTotalEmployeeByRole(List<Employee> list)
         {
-            throw new NotImplementedException();
+            var empRole = new Dictionary<string, int>();
+            int counProg = 0;
+            int countSal = 0;
+            int countQa = 0;
+            foreach (var item in list)
+            {
+                if (item.Role == "Programmer")
+                {
+                    counProg++;
+                }
+                else if ( item.Role == "Sales")
+                {
+                    countSal++;
+                }
+                else if( item.Role == "QA")
+                {
+                    countQa++;
+                }
+            }
+            empRole.Add("Programmer", counProg);
+            empRole.Add("Sales", countSal);
+            empRole.Add("QA", countQa);
+            return empRole;
         }
 
         public decimal GetTotalSalary<T>(ref List<T> list)
@@ -82,6 +104,17 @@ namespace Day4_oop.PartTwo
                 Console.WriteLine($"{item}");
             }
 
+        }
+
+        public void showRole(Dictionary<string, int> list)
+        {
+        
+          
+                foreach (var item in list)
+                {
+                    Console.WriteLine($" Type = {item.Key} \n jumlah = {item.Value}");
+                }
+            
         }
     }
 }

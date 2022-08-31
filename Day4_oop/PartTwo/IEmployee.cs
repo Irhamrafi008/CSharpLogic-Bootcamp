@@ -22,5 +22,7 @@ namespace Day4_oop.PartTwo
 
         //aggregate summary total employee
         public Dictionary<string, int> GetTotalEmployeeByRole(List<Employee> list);
+
+        public void showRole(Dictionary<string, int> list);
     }
 }

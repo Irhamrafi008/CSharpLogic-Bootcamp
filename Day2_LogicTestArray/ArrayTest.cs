@@ -187,19 +187,21 @@ namespace Day2_LogicTestArray
         //Soal 8
         //program untuk menghitung jumlah tiap karakter dari 100 huruf karakter bertipe char 
         //yang disimpan dalam sebuah array
-       // public static int[] JumlahHuruf(int n)
-        //{
-        //    char[] arr = new char[n];
-        //    Random rand = new Random();
+        public static char[] JumlahHuruf(char n)
+        {
+            char[] arr = new char[n];
+            int count = 0;
+            Random rand = new Random();
 
-        //    for (int i = 0; i < arr.Length; i++)
-        //    {
-        //        arr[i] = rand.Next();
-        //    }
-        //    return arr;
-        //}
+            for (int i = 0; i < arr.Length; i++)
+            {
+                _ = arr[i] == arr[rand.Next(i)];
+            }
 
-      
+            return arr;
+        }
+
+
 
     }
 }

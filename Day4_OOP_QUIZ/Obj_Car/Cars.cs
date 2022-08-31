@@ -14,29 +14,35 @@ namespace Day4_OOP_QUIZ.Obj_Car
         private string type;
 
         //static variable
-        public static string totalNoPolisi;
-        public static decimal toalRavenue = 0M;
+        private static string totalNoPolisi;
+        private decimal totalRavenue;
 
         public Cars()
         {
+
         }
 
-        public Cars(string noPolisi, int tahun, string type)
+
+
+        public Cars(string noPolisi, int tahun)
         {
             this.noPolisi = noPolisi;
             this.tahun = tahun;
-            this.type = type;
+            totalRavenue = 0;
         }
+
 
         public override string? ToString()
         {
-            return base.ToString();
+            return $"NoPolisi = {this.noPolisi} | {this.tahun} | {this.Type1}";
         }
 
         public string NoPolisi { get => noPolisi; set => noPolisi = value; }
         public int Tahun { get => tahun; set => tahun = value; }
-        public string Type { get => type; set => type = value; }
-
-    
+        public string Type { get => Type1; set => Type1 = value; }
+        public static string TotalNoPolisi { get => totalNoPolisi; set => totalNoPolisi = value; }
+        public decimal TotalRavenue { get => totalRavenue; set => totalRavenue = value; }
+        public decimal TotalRavenue1 { get => totalRavenue; set => totalRavenue = value; }
+        public string Type1 { get => type; set => type = value; }
     }
 }

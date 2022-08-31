@@ -15,9 +15,9 @@ namespace Day3
 
         }
 
-        public static int[,] FillRandomMatrix(int baris,int kolom)
+        public static int[,] FillRandomMatrix(int baris, int kolom)
         {
-            int[,] matrix = new int[baris,kolom];
+            int[,] matrix = new int[baris, kolom];
             Random rand = new Random();
 
             for (int i = 0; i < matrix.GetLength(0); i++) // i baris
@@ -31,7 +31,7 @@ namespace Day3
             return matrix;
         }
 
-        public static int[,]  MatrixDiagonal(int baris, int kolom)
+        public static int[,] MatrixDiagonal(int baris, int kolom)
         {
             int[,] matrix = new int[baris, kolom];
             int counter = 3;
@@ -44,10 +44,12 @@ namespace Day3
                     if (i == j)
                     {
                         matrix[i, j] = counter++;
-                    }else if ( j > i)
+                    }
+                    else if (j > i)
                     {
                         matrix[i, j] = 10;
-                    }else if (i > j)
+                    }
+                    else if (i > j)
                     {
                         matrix[i, j] = 20;
                     }
@@ -65,10 +67,10 @@ namespace Day3
             int[,] matrix = new int[baris, kolom];
             Random rand = new Random();
             double sum = 0;
-       
+
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
-                
+
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
                     matrix[i, j] = rand.Next(100);
@@ -76,16 +78,17 @@ namespace Day3
                     {
                         sum += matrix[i, j];
                     }
-                    else if(i < j)
+                    else if (i < j)
                     {
                         matrix[i, j] = 20;
-                    }else if (i > j)
+                    }
+                    else if (i > j)
                     {
                         matrix[i, j] = 10;
                     }
 
                 }
-               
+
             }
 
             return matrix;
@@ -94,21 +97,21 @@ namespace Day3
 
         //No.11
         // program untuk menampilkan matrix seperti n=7
-        public static int[,] MatrixNilai(int[, ] b,int k)
+        public static int[,] MatrixNilai(int[,] b, int k)
         {
             int[,] matt = new int[b.GetLength(0), b.GetLength(1)];
             double sum = 0;
-            
-            
-            for (int i = 0; i < matt.GetLength(0)  ; i++)
+
+
+            for (int i = 0; i < matt.GetLength(0); i++)
             {
-              
-                
-                for (int j = 0; j < matt.GetLength(1) ; j++)
+
+
+                for (int j = 0; j < matt.GetLength(1); j++)
                 {
-                    if (i == 0 ||  j==0 || j==k -1 || i == k -1 )
+                    if (i == 0 || j == 0 || j == k - 1 || i == k - 1)
                     {
-                        matt[i, j] = i+j;
+                        matt[i, j] = i + j;
                     }
                 }
             }
@@ -121,12 +124,12 @@ namespace Day3
         //program untuk menampilkan matrix penjumlahan sampai indek terakhir
 
         public static int[,] MatrixJumlah(int[,] b, int k)
-        {           
+        {
             int sum = 0;
             int s = 0;
             int ne = b.GetLength(0) - 1;
             int[,] baru = new int[b.GetLength(0), b.GetLength(1)];
-            int[,] bar = new int[b.GetLength(0), b.GetLength(1)]; 
+            int[,] bar = new int[b.GetLength(0), b.GetLength(1)];
 
 
             for (int i = 0; i < b.GetLength(0); i++)
@@ -135,7 +138,7 @@ namespace Day3
 
                 for (int j = 0; j < b.GetLength(1); j++)
                 {
-                   if(i<ne && j < ne)
+                    if (i < ne && j < ne)
                     {
                         bar[i, j] = i + j;
                     }
@@ -146,7 +149,7 @@ namespace Day3
             {
                 for (int j = 0; j < b.GetLength(1); j++)
                 {
-                    if (i !=ne || j != ne)
+                    if (i != ne || j != ne)
                     {
                         sum += bar[i, j];
                         baru[ne, i] = baru[i, ne] = sum;
@@ -155,20 +158,20 @@ namespace Day3
                             s += bar[i, j];
                             baru[ne, ne] = s;
                         }
-                        if ( j == ne - 1)
+                        if (j == ne - 1)
                         {
                             sum = 0;
                         }
-                        
+
                     }
                 }
             }
 
 
-            return baru ;
+            return baru;
         }
 
-        
+
 
         //No.13
         //public static int[,] matrixBilangan(int[,] mattrix)
@@ -193,12 +196,37 @@ namespace Day3
             {
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
-                    Console.Write(matrix [i, j] + " \t");
+                    Console.Write(matrix[i, j] + " \t");
                 }
                 Console.WriteLine();
             }
         }
 
 
+        // No.15
+        //Terdapat sebuah matrix dimana ada 8 student yang mengikuti quiz dan mengerjakan 10 soal
+        //quiz, buat program untuk membandingkan antara kunci jawaban dan jawaban peserta
+
+        public static void nilaiStudent(char[,] nilai, char[] key)
+        {
+            char[,] skor = nilai;
+            char[] jawaban = key;
+            int count = 0;
+            for (int i = 0; i < skor.GetLength(0); i++)
+            {
+                count = 0;
+                Console.Write($"Student ke - {i} ");
+                for (int j = 0; j < skor.GetLength(1); j++)
+                {
+                    Console.WriteLine($"{nilai[i, j]}");
+                    if (nilai[i, j] == jawaban[j])
+                    {
+                        count += 1;
+                    }
+                }
+                Console.WriteLine($"Jawaban Student {i} yang benar : {count}");
+            }
+        }
     }
-}
+    }
+

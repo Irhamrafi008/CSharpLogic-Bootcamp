@@ -65,5 +65,8 @@ ArrayTest.DisplayArrayInt(myShift);
 //ArrayTest.DisplayArrayInt(myArray);
 
 
+WriteLine("Soal No.8");
+var myRandom = ArrayTest.ArrayRandom;
+
 
 ReadLine();
