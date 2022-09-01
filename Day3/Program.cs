@@ -47,6 +47,6 @@ char[,] nilai = new char[,]
 {'E','B','E','C','C','D','E','E','A','D' }
 };
 char[] key = new char[] { 'D', 'B', 'D', 'C', 'C', 'D', 'A', 'E', 'A', 'D' };
-var temp = Matrix.nilaiStudent(nilai, key];
+//var temp = Matrix.nilaiStudent(nilai, key];
 
-ReadLine();
+//ReadLine();
